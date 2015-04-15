@@ -25,6 +25,7 @@ import io.netty.channel.ChannelHandlerContext;
  * traffic between the echo client and server by sending the first message to
  * the server.
  */
+//testing 
 public class EchoClientHandler extends ChannelHandlerAdapter {
 
     private final ByteBuf firstMessage;
